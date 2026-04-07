@@ -18,7 +18,7 @@ export default function Navbar() {
       <div className="w-full px-6 md:px-12 h-20 flex justify-end lg:justify-between items-center relative">
 
         {/* 2. Logo: Centrado absoluto en mobile (left-1/2 -translate-x-1/2), estático en desktop */}
-        <div className="absolute left-1/2 lg:static lg:transform-none lg:w-1/4 flex justify-center lg:justify-start">
+        <div className="absolute left-1/2 md-translate-x-1/2 lg:static lg:transform-none lg:w-1/4 flex justify-center lg:justify-start">
           <Link to="https://vezta.store" className="flex items-center">
             <img
               src="https://res.cloudinary.com/dxmydmsjl/image/upload/q_auto/f_auto/v1775516829/vezta_wqbvdi.svg"

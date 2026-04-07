@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:transform-none lg:w-1/4 flex justify-center lg:justify-start">
           <Link to="/" className="flex items-center">
             <img
-              src="/images/logo.svg"
+              src="https://res.cloudinary.com/dxmydmsjl/image/upload/q_auto/f_auto/v1775516829/vezta_wqbvdi.svg"
               alt="Logo"
               className="h-16 w-auto object-contain" 
             />
